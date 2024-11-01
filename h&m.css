@@ -25,7 +25,7 @@
     position: relative;
     width: 382px;
     height: 491px;
-    background-image: url('preppyromance\ h&m.webp'); 
+    background-image: url('assets/images/preppyromance_h&m.webp'); 
     background-size: cover; 
     background-position: center; 
     border-radius: 24px;
@@ -39,7 +39,7 @@
   position: relative;
   width: 382px;
   height: 491px;
-  background-image: url('elevatedfailfits\ h&m.webp'); 
+  background-image: url('assets/images/elevatedfailfits_h&m.webp'); 
   background-size: cover; 
   background-position: center; 
   border-radius: 24px;
@@ -287,7 +287,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('backhm.jpg'); 
+    background-image: url('assets/images/backhm.jpg'); 
     background-size: cover;
     background-position: center; 
     opacity: 0.2; 
@@ -410,14 +410,14 @@
     height: 150px;
     top: 10px;
     left: 11px;
-    background-image: url('cloth1\ kid.webp'); 
+    background-image: url('assets/images/cloth1_kid.webp'); 
     background-size: cover; 
     background-position: center; 
     border-radius: 18px;
     cursor: pointer;
 }
 .redesign-of-h-m-page .rectangle1:hover{
-  background-image: url('cloth1\ kidback.jpg');
+  background-image: url('assets/images/cloth1_kidback.jpg');
 }
 
 .redesign-of-h-m-page .rectangle2 {
@@ -426,7 +426,7 @@
   height: 150px;
   top: 10px;
   left: 11px;
-  background-image: url('cloth2\ kid.webp'); 
+  background-image: url('assets/images/cloth2_kid.webp'); 
   background-size: cover; 
   background-position: center; 
   border-radius: 18px;
@@ -434,7 +434,7 @@
 }
 
 .redesign-of-h-m-page .rectangle2:hover{
-  background-image: url('cloth2\ kidback.webp');
+  background-image: url('assets/images/cloth2_kidback.webp');
 }
 .redesign-of-h-m-page .rectangle3 {
   position: absolute;
@@ -442,14 +442,14 @@
   height: 150px;
   top: 10px;
   left: 11px;
-  background-image: url('cloth3\ kid.webp'); 
+  background-image: url('assets/images/cloth3_kid.webp'); 
   background-size: cover; 
   background-position: center; 
   border-radius: 18px;
   cursor: pointer;
 }
 .redesign-of-h-m-page .rectangle3:hover{
-  background-image: url('cloth3\ kidback.webp');
+  background-image: url('assets/images/cloth3_kidback.webp');
 }
 
 .redesign-of-h-m-page .rectangle4 {
@@ -458,14 +458,14 @@
   height: 150px;
   top: 10px;
   left: 11px;
-  background-image: url('cloth4\ kid.webp'); 
+  background-image: url('assets/images/cloth4_kid.webp'); 
   background-size: cover; 
   background-position: center; 
   border-radius: 18px;
   cursor: pointer;
 }
 .redesign-of-h-m-page .rectangle4:hover{
-  background-image: url('cloth4\ kidback.jpg');
+  background-image: url('assets/images/cloth4_kidback.jpg');
 }
 
 .redesign-of-h-m-page .rectangle5 {
@@ -474,7 +474,7 @@
   height: 150px;
   top: 10px;
   left: 11px;
-  background-image: url('cloth5\ kid.webp');
+  background-image: url('assets/images/cloth5_kid.webp');
   background-size: cover; 
   background-position: center; 
   border-radius: 18px;
@@ -482,7 +482,7 @@
 }
 
 .redesign-of-h-m-page .rectangle5:hover{
-  background-image: url('cloth5\ kidback.jpg');
+  background-image: url('assets/images/cloth5_kidback.jpg');
 }
   
   .redesign-of-h-m-page .group-5 {
@@ -972,7 +972,7 @@
     height: 240px;
     top: 1105px;
     left: 250px;
-    background-image: url('menhm.jpg'); 
+    background-image: url('assets/images/menhm.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -1013,7 +1013,7 @@
     height: 240px;
     top: 1355px;
     left: 250px;
-    background-image: url('ladieshm.jpg'); 
+    background-image: url('assets/images/ladieshm.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -1033,7 +1033,7 @@
     height: 240px;
     top: 1105px;
     left: 645px;
-    background-image: url('sportshm.jpg'); 
+    background-image: url('assets/images/sportshm.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -1066,7 +1066,7 @@
     height: 240px;
     top: 1355px;
     left: 645px;
-    background-image: url('kidshm.jpg'); 
+    background-image: url('assets/images/kidshm.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
