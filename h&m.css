@@ -31,6 +31,10 @@
     border-radius: 24px;
 }
 
+.redesign-of-h-m-page .overlap:hover {
+  box-shadow: 8px 8px 16px #b8b9be, -8px -8px 16px #ffffff;
+}
+
 .redesign-of-h-m-page .overlap-II {
   position: relative;
   width: 382px;
@@ -39,6 +43,10 @@
   background-size: cover; 
   background-position: center; 
   border-radius: 24px;
+}
+
+.redesign-of-h-m-page .overlap-II:hover {
+  box-shadow: 8px 8px 16px #b8b9be, -8px -8px 16px #ffffff;
 }
   
   .redesign-of-h-m-page .text-wrapper {
@@ -355,45 +363,47 @@
     position: relative;
     width: 144px;
     height: 210px;
-    background-color: #d9d9d9;
+    background-color: #e0e0e0;
     border-radius: 20px;
     border: none;
-  box-shadow: inset 8px 8px 16px #b8b9be, inset -8px -8px 16px #e0dcdc;
-  cursor: pointer;
-  transition: box-shadow 0.3s ease;
+    box-shadow: 8px 8px 15px #a3b1c0, -8px -8px 15px #ffffff;;
+    cursor: pointer;
+    transition: all 0.3s ease;
   }
 
   .redesign-of-h-m-page .overlap-group-3:hover {
-    box-shadow: 8px 8px 16px #b8b9be, -8px -8px 16px #ffffff;
+    box-shadow: inset 4px 4px 10px #a3b1c0, inset -4px -4px 10px #ffffff;
   }
   
   .redesign-of-h-m-page .text-wrapper-12 {
     position: absolute;
-    width: 64px;
+    width: 80px;
     top: 168px;
     left: 40px;
     font-family: "Inter", Helvetica;
     font-weight: 400;
     color: #000000;
     font-size: 12px;
-    text-align: center;
+    text-align: start;
     letter-spacing: 0;
     line-height: normal;
     cursor: pointer;
+    font-weight: bold;
   }
   
   .redesign-of-h-m-page .text-wrapper-13 {
     position: absolute;
-    width: 58px;
+    width: 70px;
     top: 183px;
     left: 40px;
     font-family: "Inter", Helvetica;
     font-weight: 400;
     color: #000000;
     font-size: 10px;
-    text-align: center;
+    text-align: start;
     letter-spacing: 0;
     line-height: normal;
+    font-weight: 600;
   }
   
   .redesign-of-h-m-page .rectangle1 {
@@ -967,8 +977,13 @@
     background-image: url('menhm.jpg'); 
     background-size: cover; 
     background-position: center; 
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    border-radius: 24px 0 0 0; 
 }
+.redesign-of-h-m-page .group-wrapper:hover{
+  box-shadow: 8px 8px 16px #b8b9be, -8px -8px 16px #ffffff;
+}
+
 
   
   .redesign-of-h-m-page .group-13 {
@@ -1008,8 +1023,13 @@
     background-image: url('ladieshm.jpg'); 
     background-size: cover; 
     background-position: center; 
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    border-radius: 0 0 0 24px; 
   }
+  .redesign-of-h-m-page .group-15:hover{
+    box-shadow: 8px 8px 16px #b8b9be, -8px -8px 16px #ffffff;
+  }
+
   
   .redesign-of-h-m-page .group-16 {
     position: relative;
@@ -1028,7 +1048,12 @@
     background-image: url('sportshm.jpg'); 
     background-size: cover; 
     background-position: center; 
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    border-radius: 0 24px 0 0; 
+  }
+
+  .redesign-of-h-m-page .group-17:hover{
+    box-shadow: 8px 8px 16px #b8b9be, -8px -8px 16px #ffffff;
   }
   
   .redesign-of-h-m-page .group-18 {
@@ -1061,7 +1086,12 @@
     background-image: url('kidshm.jpg'); 
     background-size: cover; 
     background-position: center; 
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    border-radius: 0 0 24px 0; 
+  }
+
+  .redesign-of-h-m-page .group-19:hover{
+    box-shadow: 8px 8px 16px #b8b9be, -8px -8px 16px #ffffff;
   }
   
   .redesign-of-h-m-page .group-20 {
