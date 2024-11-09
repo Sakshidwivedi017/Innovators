@@ -32,7 +32,7 @@
 }
 
 .redesign-of-h-m-page .overlap:hover {
-  box-shadow: 8px 8px 16px #b8b9be, -8px -8px 16px #ffffff;
+  box-shadow: 8px 8px 16px #403f3f, -8px -8px 16px #ffffff;
 }
 
 .redesign-of-h-m-page .overlap-II {
@@ -47,7 +47,7 @@
 }
 
 .redesign-of-h-m-page .overlap-II:hover {
-  box-shadow: -8px 8px 16px #b8b9be, -8px -8px 16px #ffffff;
+  box-shadow: -8px 8px 16px #403f3f, -8px -8px 16px #ffffff;
 }
   
   .redesign-of-h-m-page .text-wrapper {
@@ -326,7 +326,7 @@
   
   .redesign-of-h-m-page .text-wrapper-10 {
     position: absolute;
-    top: 1088px;
+    top: 1150px;
     left: 618px;
     font-family: "Inter", Helvetica;
     font-weight: 400;
@@ -339,17 +339,17 @@
   
   .redesign-of-h-m-page .group-3 {
     position: absolute;
-    width: 793px;
-    height: 250px;
-    top: 777px;
-    left: 239px;
+    width: 1071px;
+    height: 270px;
+    top: 840px;
+    left: 200px;
   }
   
   .redesign-of-h-m-page .text-wrapper-11 {
     position: absolute;
-    width: 347px;
+    width: 392px;
     top: 0;
-    left: 232px;
+    left: 350px;
     font-family: "Inter", Helvetica;
     font-weight: 400;
     color: #000000;
@@ -359,14 +359,6 @@
     line-height: normal;
   }
   
-  .redesign-of-h-m-page .group-4 {
-    position: absolute;
-    width: 148px;
-    height: 210px;
-    top: 40px;
-    left: 0;
-  }
-  
   .redesign-of-h-m-page .overlap-group-3 {
     position: relative;
     width: 144px;
@@ -374,7 +366,7 @@
     background-color: #e0e0e0;
     border-radius: 20px;
     border: none;
-    box-shadow: 8px 8px 15px #a3b1c0, -8px -8px 15px #ffffff;;
+    box-shadow: 8px 8px 15px #403f3f, -8px -8px 15px #ffffff;;
     cursor: pointer;
     transition: all 0.3s ease;
   }
@@ -494,37 +486,70 @@
 .redesign-of-h-m-page .rectangle5:hover{
   background-image: url('cloth5\ kidback.jpg');
 }
-  
+
+.redesign-of-h-m-page .rectangle6 {
+  position: absolute;
+  width: 121px;
+  height: 150px;
+  top: 10px;
+  left: 11px;
+  background-image: url('cloth6\ kid.webp');
+  background-size: cover; 
+  background-position: center; 
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.redesign-of-h-m-page .rectangle6:hover{
+  background-image: url('cloth6\ kidback.jpg');
+}
+
+.redesign-of-h-m-page .group-4 {
+  position: absolute;
+  width: 148px;
+  height: 210px;
+  top: 55px;
+  left: 60px;
+}
+
   .redesign-of-h-m-page .group-5 {
     position: absolute;
     width: 148px;
     height: 210px;
-    top: 40px;
-    left: 165px;
+    top: 55px;
+    left: 233px;
   }
   
   .redesign-of-h-m-page .group-6 {
     position: absolute;
     width: 148px;
     height: 210px;
-    top: 40px;
-    left: 488px;
+    top: 55px;
+    left: 578px;
   }
   
   .redesign-of-h-m-page .group-7 {
     position: absolute;
     width: 148px;
     height: 210px;
-    top: 40px;
-    left: 329px;
+    top: 55px;
+    left: 406px;
   }
   
   .redesign-of-h-m-page .group-8 {
     position: absolute;
     width: 148px;
     height: 210px;
-    top: 40px;
-    left: 647px;
+    top: 55px;
+    left: 748px;
+  }
+
+  .redesign-of-h-m-page .group-XI {
+    position: absolute;
+    width: 148px;
+    height: 210px;
+    top: 55px;
+    left: 918px;
   }
   
   .redesign-of-h-m-page .top-bar {
@@ -981,7 +1006,7 @@
     position: absolute;
     width: 515px;
     height: 240px;
-    top: 1141px;
+    top: 1210px;
     left: 238px;
     background-image: url('menhm.jpg'); 
     background-size: cover; 
@@ -990,7 +1015,7 @@
     border-radius: 24px 0 0 0; 
 }
 .redesign-of-h-m-page .group-wrapper:hover{
-  box-shadow: 8px 8px 16px #b8b9be, -8px -8px 16px #ffffff;
+  box-shadow: 8px 8px 16px #403f3f , -8px -8px 16px #ffffff;
 }
 
 
@@ -1036,7 +1061,7 @@
     position: absolute;
     width: 515px;
     height: 240px;
-    top: 1391px;
+    top: 1465px;
     left: 238px;
     background-image: url('ladieshm.jpg'); 
     background-size: cover; 
@@ -1045,7 +1070,7 @@
     border-radius: 0 0 0 24px; 
   }
   .redesign-of-h-m-page .group-15:hover{
-    box-shadow: 8px 8px 16px #b8b9be, -8px -8px 16px #ffffff;
+    box-shadow: 8px 8px 16px #403f3f, -8px -8px 16px #ffffff;
   }
 
   
@@ -1061,7 +1086,7 @@
     position: absolute;
     width: 515px;
     height: 240px;
-    top: 1141px;
+    top: 1210px;
     left: 767px;
     background-image: url('sportshm.jpg'); 
     background-size: cover; 
@@ -1071,7 +1096,7 @@
   }
 
   .redesign-of-h-m-page .group-17:hover{
-    box-shadow: 8px 8px 16px #b8b9be, -8px -8px 16px #ecedef;
+    box-shadow: 8px 8px 16px #403f3f, -8px -8px 16px #ffffff;
   }
   
   .redesign-of-h-m-page .group-18 {
@@ -1101,7 +1126,7 @@
     position: absolute;
     width: 515px;
     height: 240px;
-    top: 1391px;
+    top: 1465px;
     left: 767px;
     background-image: url('kidshm.jpg'); 
     background-size: cover; 
@@ -1111,7 +1136,7 @@
   }
 
   .redesign-of-h-m-page .group-19:hover{
-    box-shadow: 8px 8px 16px #b8b9be, -8px -8px 16px #ecedef;
+    box-shadow: 8px 8px 16px #403f3f, -8px -8px 16px #ffffff;
   }
   
   .redesign-of-h-m-page .group-20 {
@@ -1148,7 +1173,7 @@
     position: absolute;
     width: 100%;
     height: 298px;
-    top: 1683px;
+    top: 1780px;
     left: 0;
     background-color: #d9d9d9;
   }
@@ -1355,60 +1380,54 @@
     width: 20px;
     height: 20px;
     left: 0;
-    background-color: #bebebe;
-    border-radius: 10px;
     position: absolute;
     top: 0;
+    cursor: pointer;
   }
   
   .redesign-of-h-m-page .ellipse-3 {
     width: 20px;
     height: 20px;
     left: 32px;
-    background-color: #bebebe;
-    border-radius: 10px;
     position: absolute;
     top: 0;
+    cursor: pointer;
   }
   
   .redesign-of-h-m-page .ellipse-4 {
     width: 20px;
     height: 20px;
     left: 64px;
-    background-color: #bebebe;
-    border-radius: 10px;
     position: absolute;
     top: 0;
+    cursor: pointer;
   }
   
   .redesign-of-h-m-page .ellipse-5 {
     width: 20px;
     height: 20px;
     left: 96px;
-    background-color: #bebebe;
-    border-radius: 10px;
     position: absolute;
     top: 0;
+    cursor: pointer;
   }
   
   .redesign-of-h-m-page .ellipse-6 {
     width: 20px;
     height: 20px;
     left: 128px;
-    background-color: #bebebe;
-    border-radius: 10px;
     position: absolute;
     top: 0;
+    cursor: pointer;
   }
   
   .redesign-of-h-m-page .ellipse-7 {
     width: 20px;
     height: 20px;
     left: 160px;
-    background-color: #bebebe;
-    border-radius: 10px;
     position: absolute;
     top: 0;
+    cursor: pointer;
   }
   
   .redesign-of-h-m-page .group-26 {
