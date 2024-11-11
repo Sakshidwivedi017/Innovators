@@ -1,3 +1,6 @@
+body {
+  background-color: #e5e5e5;
+}
 .redesign-of-h-m-page {
     background-color: #e5e5e5;
     display: flex;
@@ -363,10 +366,10 @@
     position: relative;
     width: 144px;
     height: 210px;
-    background-color: #e0e0e0;
+    background-color: #e5e5e5;
     border-radius: 20px;
     border: none;
-    box-shadow: 8px 8px 15px #403f3f, -8px -8px 15px #ffffff;;
+    box-shadow: 8px 8px 15px #a3b1c0, -8px -8px 15px #ffffff;;
     cursor: pointer;
     transition: all 0.3s ease;
   }
