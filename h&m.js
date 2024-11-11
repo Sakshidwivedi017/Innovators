@@ -1,11 +1,3 @@
-document.addEventListener("DOMContentLoaded", function() {
-  const menuIcon = document.querySelector('.align-justify');
-  const menuBlock = document.querySelector('.group-9');
-
-  menuIcon.addEventListener('click', function() {
-    menuBlock.classList.toggle('show');
-  });
-});
 
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -18,3 +10,17 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+// Function to toggle the side panel visibility
+function toggleSidePanel() {
+  const sidePanel = document.getElementById("side-panel");
+  sidePanel.classList.toggle("open");
+}
+
+// Close the side panel when clicked outside of it
+document.addEventListener('click', function(event) {
+  const sidePanel = document.getElementById("side-panel");
+  const topBar = document.querySelector(".top-bar");  // The top bar where the menu icon is
+  if (!sidePanel.contains(event.target) && !topBar.contains(event.target)) {
+    sidePanel.classList.remove("open");
+  }
+});

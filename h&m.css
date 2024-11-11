@@ -605,32 +605,63 @@ body {
   color: #555;
 }
 
-
-  .redesign-of-h-m-page .group-9 {
-    position: absolute;
-    width: 215px;
-    height: 582px;
-    top: 87px;
-    left: 40px;
-    background-color: #d9d9d9;
-    border-radius: 24px;
-    display: none; 
+.side-panel {
+  position: fixed;
+  top: 0;
+  left: -250px; 
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  transition: left 0.3s ease; 
+  z-index: 1000;
 }
 
-.redesign-of-h-m-page .group-9.show {
-    display: block; 
+.side-panel.open {
+  left: 0; 
 }
 
+.side-panel {
+  position: fixed;
+  top: 0;
+  left: -250px; 
+  width: 250px;
+  height: 100%;
+  background-color: #d9d9d9;
+  color: #fff;
+  padding: 20px;
+  transition: left 0.3s ease;
+  z-index: 1000;
+  overflow-y: auto;
+}
 
-  
-  .redesign-of-h-m-page .group-10 {
-    position: absolute;
-    width: 159px;
-    height: 127px;
-    top: 23px;
-    left: 28px;
-  }
-  
+.side-panel.open {
+  left: 0;
+}
+
+.group-9 {
+  margin-bottom: 20px;
+}
+
+.group-10, .group-11 {
+  margin-bottom: 15px;
+}
+
+.text-wrapper-14, .text-wrapper-15, .text-wrapper-16, .text-wrapper-17, .text-wrapper-18,
+.text-wrapper-19, .text-wrapper-20, .text-wrapper-21, .text-wrapper-22, .text-wrapper-23,
+.h-m-home, .text-wrapper-24, .text-wrapper-25, .text-wrapper-26 {
+  font-size: 16px;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+.text-wrapper-14:hover, .text-wrapper-15:hover, .text-wrapper-16:hover, .text-wrapper-17:hover, .text-wrapper-18:hover,
+.text-wrapper-19:hover, .text-wrapper-20:hover, .text-wrapper-21:hover, .text-wrapper-22:hover, .text-wrapper-23:hover,
+.h-m-home:hover, .text-wrapper-24:hover, .text-wrapper-25:hover, .text-wrapper-26:hover {
+  color: #ccc; 
+}
+
   .redesign-of-h-m-page .text-wrapper-14 {
     position: absolute;
     top: 0;
@@ -701,14 +732,6 @@ body {
     text-decoration: underline;
   }
 
-  .redesign-of-h-m-page .group-11 {
-    position: absolute;
-    width: 146px;
-    height: 203px;
-    top: 188px;
-    left: 28px;
-  }
-  
   .redesign-of-h-m-page .text-wrapper-19 {
     position: absolute;
     height: 15px;
