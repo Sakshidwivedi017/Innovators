@@ -1,3 +1,25 @@
+/* Apply to the body to center everything inside it */
+html, body {
+  height: 100%; /* Full height of the viewport */
+  margin: 0; /* Remove default margins */
+  padding-left: 0; 
+  padding-right: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center; 
+  text-align: center;
+  box-sizing: border-box;  
+}
+
+* {
+  box-sizing: inherit;
+}
+
+/* You can also add this to make sure the content inside body doesn't overflow */
+body {
+  background-color: #e5e5e5;
+}
+
 .redesign-of-h-m-page {
     background-color: #e5e5e5;
     display: flex;
@@ -24,7 +46,7 @@
     position: relative;
     width: 500px;
     height: 550px;
-    background-image: url('preppyromance\ h&m.jpg'); 
+    background-image: url(assets/images/preppyromance_h&m.jpg); 
     background-size: cover; 
     background-position: center; 
     border-radius: 24px;
@@ -39,7 +61,7 @@
   position: relative;
   width: 500px;
   height: 550px;
-  background-image: url('elevatedfailfits\ h&m.jpg'); 
+  background-image: url('assets/images/elevatedfailfits_h&m.jpg'); 
   background-size: cover; 
   background-position: center; 
   border-radius: 24px;
@@ -156,13 +178,30 @@
     cursor: pointer;
   }
   
-  .redesign-of-h-m-page .group-2 {
+  /* .redesign-of-h-m-page .group-2 {
     position: absolute;
     width: 793px;
     height: 95px;
     top: 150px;
     left: 290px;
+  } */
+  .group-2 {
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0 auto;
+    box-sizing: border-box;
   }
+  
+  @media (max-width: 768px) {
+    .group-2 {
+      padding-left: 20px;  /* Reduced padding for smaller screens */
+      padding-right: 20px; /* Reduced padding for smaller screens */
+    }
+  }
+  
+  
   
     .redesign-of-h-m-page .text-wrapper-5 {
       position: absolute;
@@ -295,7 +334,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('backhm.jpg'); 
+    background-image: url('assets/images/backhm.jpg'); 
     background-size: cover;
     background-position: center; 
     opacity: 0.2; 
@@ -363,10 +402,10 @@
     position: relative;
     width: 144px;
     height: 210px;
-    background-color: #e0e0e0;
+    background-color: #e5e5e5;
     border-radius: 20px;
     border: none;
-    box-shadow: 8px 8px 15px #403f3f, -8px -8px 15px #ffffff;;
+    box-shadow: 8px 8px 15px #a3b1c0, -8px -8px 15px #ffffff;;
     cursor: pointer;
     transition: all 0.3s ease;
   }
@@ -412,14 +451,14 @@
     height: 150px;
     top: 10px;
     left: 11px;
-    background-image: url('cloth1\ kid.webp'); 
+    background-image: url('assets/images/cloth1_kid.webp'); 
     background-size: cover; 
     background-position: center; 
     border-radius: 18px;
     cursor: pointer;
 }
 .redesign-of-h-m-page .rectangle1:hover{
-  background-image: url('cloth1\ kidback.jpg');
+  background-image: url('assets/images/cloth1_kidback.jpg');
 }
 
 .redesign-of-h-m-page .rectangle2 {
@@ -428,7 +467,7 @@
   height: 150px;
   top: 10px;
   left: 11px;
-  background-image: url('cloth2\ kid.webp'); 
+  background-image: url('assets/images/cloth2_kid.webp'); 
   background-size: cover; 
   background-position: center; 
   border-radius: 18px;
@@ -436,7 +475,7 @@
 }
 
 .redesign-of-h-m-page .rectangle2:hover{
-  background-image: url('cloth2\ kidback.webp');
+  background-image: url('assets/images/cloth2_kidback.webp');
 }
 .redesign-of-h-m-page .rectangle3 {
   position: absolute;
@@ -444,14 +483,14 @@
   height: 150px;
   top: 10px;
   left: 11px;
-  background-image: url('cloth3\ kid.webp'); 
+  background-image: url('assets/images/cloth3_kid.webp'); 
   background-size: cover; 
   background-position: center; 
   border-radius: 18px;
   cursor: pointer;
 }
 .redesign-of-h-m-page .rectangle3:hover{
-  background-image: url('cloth3\ kidback.webp');
+  background-image: url('assets/images/cloth3_kidback.webp');
 }
 
 .redesign-of-h-m-page .rectangle4 {
@@ -460,14 +499,14 @@
   height: 150px;
   top: 10px;
   left: 11px;
-  background-image: url('cloth4\ kid.webp'); 
+  background-image: url('assets/images/cloth4_kid.webp'); 
   background-size: cover; 
   background-position: center; 
   border-radius: 18px;
   cursor: pointer;
 }
 .redesign-of-h-m-page .rectangle4:hover{
-  background-image: url('cloth4\ kidback.jpg');
+  background-image: url('assets/images/cloth4_kidback.jpg');
 }
 
 .redesign-of-h-m-page .rectangle5 {
@@ -476,7 +515,7 @@
   height: 150px;
   top: 10px;
   left: 11px;
-  background-image: url('cloth5\ kid.webp');
+  background-image: url('assets/images/cloth5_kid.webp');
   background-size: cover; 
   background-position: center; 
   border-radius: 18px;
@@ -484,7 +523,7 @@
 }
 
 .redesign-of-h-m-page .rectangle5:hover{
-  background-image: url('cloth5\ kidback.jpg');
+  background-image: url('assets/images/cloth5_kidback.jpg');
 }
 
 .redesign-of-h-m-page .rectangle6 {
@@ -493,7 +532,7 @@
   height: 150px;
   top: 10px;
   left: 11px;
-  background-image: url('cloth6\ kid.webp');
+  background-image: url('assets/images/cloth6_kid.webp');
   background-size: cover; 
   background-position: center; 
   border-radius: 18px;
@@ -501,7 +540,7 @@
 }
 
 .redesign-of-h-m-page .rectangle6:hover{
-  background-image: url('cloth6\ kidback.jpg');
+  background-image: url('assets/images/cloth6_kidback.jpg');
 }
 
 .redesign-of-h-m-page .group-4 {
@@ -551,95 +590,114 @@
     top: 55px;
     left: 918px;
   }
-  
-  .redesign-of-h-m-page .top-bar {
-    position: absolute;
-    width: 100%px;
-    height: 60px;
-    top: 20px;
-    left: 39px;
-  }
-  
-  .redesign-of-h-m-page .logo {
-    width: 70px;
-    height: 40px; 
-    position: absolute;
-    top: 10px; 
-    left: 660px; 
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e5e5e5;
+  height: 90px;
+  padding: 0 20px; 
+  position: relative;
 }
 
-
-  
-  .redesign-of-h-m-page .search {
-    position: absolute;
-    width: 200px;
-    height: 19px;
-    top: 19px;
-    left: 1184px;
-  }
-  
-  .redesign-of-h-m-page .input {
-    width: 100%;
-    font-family: "Inter", Helvetica;
-    font-weight: 400;
-    color: #333333;
-    font-size: 14px;
-    border: none;
-    outline: none;
-    background: transparent;
-    padding-left: 10px;
-  }
-  
-  .redesign-of-h-m-page .line {
-    position: absolute;
-    width: 198px;
-    height: 1px;
-    top: 18px;
-    left: 0;
-    object-fit: cover;
-  }
-  
-  .redesign-of-h-m-page .align-justify {
-    position: absolute;
-    width: 27px;
-    height: 24px;
-    top: 17px;
-    left: 0;
-  }
-  
-  .redesign-of-h-m-page .user {
-    position: absolute;
-    width: 27px;
-    height: 24px;
-    top: 17px;
-    left: 1404px;
-  }
-  
-  .redesign-of-h-m-page .group-9 {
-    position: absolute;
-    width: 215px;
-    height: 582px;
-    top: 87px;
-    left: 40px;
-    background-color: #d9d9d9;
-    border-radius: 24px;
-    display: none; 
+.align-justify {
+  height: 32px;
+  cursor: pointer;
 }
 
-.redesign-of-h-m-page .group-9.show {
-    display: block; 
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 40px; 
 }
 
+.user {
+  height: 32px;
+  cursor: pointer;
+}
 
-  
-  .redesign-of-h-m-page .group-10 {
-    position: absolute;
-    width: 159px;
-    height: 127px;
-    top: 23px;
-    left: 28px;
-  }
-  
+.search-container {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  margin-right: 20px; 
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 200px;
+  background-color: transparent;
+  padding: 5px 0;
+  border: none;
+  border-bottom: 2px solid #999;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+}
+
+.search-bar::placeholder {
+  color: #555;
+}
+
+.side-panel {
+  position: fixed;
+  top: 0;
+  left: -250px; 
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  transition: left 0.3s ease; 
+  z-index: 1000;
+}
+
+.side-panel.open {
+  left: 0; 
+}
+
+.side-panel {
+  position: fixed;
+  top: 0;
+  left: -250px; 
+  width: 250px;
+  height: 100%;
+  background-color: #d9d9d9;
+  color: #fff;
+  padding: 20px;
+  transition: left 0.3s ease;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.side-panel.open {
+  left: 0;
+}
+
+.group-9 {
+  margin-bottom: 20px;
+}
+
+.group-10, .group-11 {
+  margin-bottom: 15px;
+}
+
+.text-wrapper-14, .text-wrapper-15, .text-wrapper-16, .text-wrapper-17, .text-wrapper-18,
+.text-wrapper-19, .text-wrapper-20, .text-wrapper-21, .text-wrapper-22, .text-wrapper-23,
+.h-m-home, .text-wrapper-24, .text-wrapper-25, .text-wrapper-26 {
+  font-size: 16px;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+.text-wrapper-14:hover, .text-wrapper-15:hover, .text-wrapper-16:hover, .text-wrapper-17:hover, .text-wrapper-18:hover,
+.text-wrapper-19:hover, .text-wrapper-20:hover, .text-wrapper-21:hover, .text-wrapper-22:hover, .text-wrapper-23:hover,
+.h-m-home:hover, .text-wrapper-24:hover, .text-wrapper-25:hover, .text-wrapper-26:hover {
+  color: #ccc; 
+}
+
   .redesign-of-h-m-page .text-wrapper-14 {
     position: absolute;
     top: 0;
@@ -710,14 +768,6 @@
     text-decoration: underline;
   }
 
-  .redesign-of-h-m-page .group-11 {
-    position: absolute;
-    width: 146px;
-    height: 203px;
-    top: 188px;
-    left: 28px;
-  }
-  
   .redesign-of-h-m-page .text-wrapper-19 {
     position: absolute;
     height: 15px;
@@ -1008,7 +1058,7 @@
     height: 240px;
     top: 1210px;
     left: 238px;
-    background-image: url('menhm.jpg'); 
+    background-image: url('assets/images/menhm.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -1063,7 +1113,7 @@
     height: 240px;
     top: 1465px;
     left: 238px;
-    background-image: url('ladieshm.jpg'); 
+    background-image: url('assets/images/ladieshm.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -1088,7 +1138,7 @@
     height: 240px;
     top: 1210px;
     left: 767px;
-    background-image: url('sportshm.jpg'); 
+    background-image: url('assets/images/sportshm.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -1128,7 +1178,7 @@
     height: 240px;
     top: 1465px;
     left: 767px;
-    background-image: url('kidshm.jpg'); 
+    background-image: url('assets/images/kidshm.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
