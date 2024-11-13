@@ -1,6 +1,25 @@
+/* Apply to the body to center everything inside it */
+html, body {
+  height: 100%; /* Full height of the viewport */
+  margin: 0; /* Remove default margins */
+  padding-left: 0; 
+  padding-right: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center; 
+  text-align: center;
+  box-sizing: border-box;  
+}
+
+* {
+  box-sizing: inherit;
+}
+
+/* You can also add this to make sure the content inside body doesn't overflow */
 body {
   background-color: #e5e5e5;
 }
+
 .redesign-of-h-m-page {
     background-color: #e5e5e5;
     display: flex;
@@ -159,13 +178,30 @@ body {
     cursor: pointer;
   }
   
-  .redesign-of-h-m-page .group-2 {
+  /* .redesign-of-h-m-page .group-2 {
     position: absolute;
     width: 793px;
     height: 95px;
     top: 150px;
     left: 290px;
+  } */
+  .group-2 {
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0 auto;
+    box-sizing: border-box;
   }
+  
+  @media (max-width: 768px) {
+    .group-2 {
+      padding-left: 20px;  /* Reduced padding for smaller screens */
+      padding-right: 20px; /* Reduced padding for smaller screens */
+    }
+  }
+  
+  
   
     .redesign-of-h-m-page .text-wrapper-5 {
       position: absolute;
